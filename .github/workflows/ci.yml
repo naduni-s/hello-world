@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js (Optional, for a simple test environment)
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # You can skip this if not using Node.js
+          node-version: '16'  
 
       - name: Check that index.html and styles.css exist
         run: |
